@@ -1,3 +1,12 @@
+import nltk
+nltk.download('punkt')   # Required for tokenization
+nltk.download('averaged_perceptron_tagger')  # Required for POS tagging
+nltk.download('brown')   # Required for text classification
+nltk.download('wordnet') # Required for lemmatization
+nltk.download('stopwords')  # Required for stopwords filtering
+nltk.download('movie_reviews')  # Required for TextBlob's sentiment analysis
+nltk.download('vader_lexicon')  # Required for VADER sentiment analysis
+
 import streamlit as st
 import pandas as pd
 import plotly.express as px

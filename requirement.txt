@@ -1,0 +1,11 @@
+streamlit
+pandas
+plotly
+textblob
+nrclex
+matplotlib
+wordcloud
+scikit-learn
+nltk
+vaderSentiment
+asyncio

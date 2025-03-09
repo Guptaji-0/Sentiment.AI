@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 streamlit
 pandas
 plotly
@@ -10,6 +10,4 @@ scikit-learn
 nltk
 vaderSentiment
 asyncio
-=======
 
->>>>>>> fcc3aa94e551c466216b2dbc9f74bda84fd302e1

@@ -6,7 +6,9 @@ nltk.download('wordnet') # Required for lemmatization
 nltk.download('stopwords')  # Required for stopwords filtering
 nltk.download('movie_reviews')  # Required for TextBlob's sentiment analysis
 nltk.download('vader_lexicon')  # Required for VADER sentiment analysis
-
+# Download required corpora
+nltk.download('punkt')
+textblob.download_corpora()
 import streamlit as st
 import pandas as pd
 import plotly.express as px

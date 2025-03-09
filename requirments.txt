@@ -1,0 +1,15 @@
+streamlit
+fastapi
+uvicorn
+transformers
+torch
+spacy
+nltk
+textblob
+vaderSentiment
+gensim
+pandas
+matplotlib
+seaborn
+wordcloud
+scikit-learn

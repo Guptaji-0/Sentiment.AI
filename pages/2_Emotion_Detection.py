@@ -6,8 +6,8 @@ nltk.download('wordnet') # Required for lemmatization
 nltk.download('stopwords')  # Required for stopwords filtering
 nltk.download('movie_reviews')  # Required for TextBlob's sentiment analysis
 nltk.download('vader_lexicon')  # Required for VADER sentiment analysis
+from textblob import TextBlob  # Correct way to import TextBlob
 # Download required corpora
-nltk.download('punkt')
 textblob.download_corpora()
 import streamlit as st
 import pandas as pd
